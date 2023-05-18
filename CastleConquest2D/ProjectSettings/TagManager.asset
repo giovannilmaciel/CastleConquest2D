@@ -16,7 +16,7 @@ TagManager:
   - Climbing
   - Player
   - World Confiner
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Climbing
     uniqueID: 2697923071
+    locked: 0
+  - name: Enemy
+    uniqueID: 3942751313
     locked: 0
   - name: Player
     uniqueID: 2974371557
