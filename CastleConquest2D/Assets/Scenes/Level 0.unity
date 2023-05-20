@@ -22997,6 +22997,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6147433428863502004, guid: 7cce0803035ffc44c95746a0e7ac69c1, type: 3}
+      propertyPath: radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147433428863502004, guid: 7cce0803035ffc44c95746a0e7ac69c1, type: 3}
+      propertyPath: explosionForce.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147433428863502004, guid: 7cce0803035ffc44c95746a0e7ac69c1, type: 3}
+      propertyPath: explosionForce.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6147433428863502009, guid: 7cce0803035ffc44c95746a0e7ac69c1, type: 3}
       propertyPath: m_Name
       value: Bomb
