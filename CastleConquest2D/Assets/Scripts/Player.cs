@@ -56,6 +56,11 @@ public class Player : MonoBehaviour
             myAnimator.SetTrigger("Attacking");
 
             Collider2D[] enemiesToHit = Physics2D.OverlapCircleAll(hurtBox.position, attackRadius, LayerMask.GetMask("Enemy"));
+
+            foreach (Collider2D enemy in enemiesToHit)
+            {
+                enemy.GetComponent<Enemy>().Dying();
+            }
         }
     }
 
