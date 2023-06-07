@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 10
-  jumpSpeed: 25
+  jumpSpeed: 30
   climbSpeed: 5
   attackRadius: 1
   hitKick: {x: 40, y: 40}

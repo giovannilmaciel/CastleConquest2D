@@ -19969,10 +19969,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1897001601, guid: 199be4f99ecbde044bc28b8e5a26ef41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 5529068748822922699, guid: 199be4f99ecbde044bc28b8e5a26ef41, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20022,8 +20018,8 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5529068750554826700, guid: 199be4f99ecbde044bc28b8e5a26ef41, type: 3}
-      propertyPath: attackRadius
-      value: 1
+      propertyPath: jumpSpeed
+      value: 26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 199be4f99ecbde044bc28b8e5a26ef41, type: 3}
